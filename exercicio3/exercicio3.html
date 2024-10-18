@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,
+            initial-scale=1.0">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <div >
+            <h1> Cadastrar usuário </h1>
+            <fieldset>
+                <legend> 1 Dados pessoais</legend>
+                <div>
+                    <form>
+                        <p>Nome: <input type="text" id="fname" name="fname">
+                            Email: <input type="text" id="email" name="email">
+                            Senha: <input type="password" id="pwd" name="pwd">
+                            Confirma senha: <input type="password" id="pwd" name="pwd">
+                            Idade: <input type="radio" id="acima" name="idade" value="acima17">
+                                    <label for="acima">Acima 17</label>
+                                    <input type="radio" id="abaixo" name="idade" value="abaixo">
+                                    <label for="abaixo">Abaixo ou igual 17</label>
+                        
+                        </p>
+                    </form>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>2 Perfil</legend>
+                <div>
+                    <p>Descrição: <textarea id="descricao" name="desc"></textarea>
+                        Perfil trabalho: <select id="prof" name="prof">
+                                            <option value="front">Front-End Developer</option>
+                                        </select>
+                        Interesses: <input type="checkbox" id="prg" name="prg" value="prg">
+                                        <label for="prg">Programador</label>
+                                    <input type="checkbox" id="dsg" name="dsg" value="dsg">
+                                        <label for="dsg">Design</label>
+                                    <input type="checkbox" id="ans" name="ans" value="ans">
+                                        <label for="ans">Analista</label>
+                    </p>
+                </div>
+            </fieldset>
+            <div >
+                <form action="index.html" method="post">                 
+                    <button type="submit">Enviar dados</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
