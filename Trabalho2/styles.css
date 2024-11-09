@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+h1{
+    font-family:"Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+    
+}
+
+body{
+    background-color:#f3e48e;
+}
+
+.container{
+    background-color: #f7587ac0;
+    width: 960px; /*configura a largura*/
+    margin:auto; /*configura a margem*/
+}
+
+header, footer{
+    background-color: #f7587ac0;
+}
+
+.a{
+    color:#1900ffc0;
+    text-decoration: none; /*Decoration é o comando para adicionar decorações pré feitas, eu vi no w3schools*/
+    text-decoration-color: blue;;
+    
+}
+
+img{
+    width: 960px;
+}
+
+table {
+    text-align: center;
+    border: 1px solid #000;
+    width: 400px;
+    margin: auto;
+}
+
+table td {
+    margin: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+table img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+
+table tr:hover {
+    background-color: #006eff;
+}
+
+form {
+    width: auto;
+    padding: 40px;
+    background-color:#f3e48e;
+}
+
+input[type="text"], input[type="tel"], textarea {
+    width: 100%; 
+    padding: 12px; 
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    width: 100%;
+    background-color: #f7587ac0;
+}
+
